@@ -122,3 +122,11 @@ Add conventions, style, and rules as you learn what works for this workspace.
 - [Default AGENTS.md](/reference/AGENTS.default)
 - [Automations vs heartbeat](/automation#automations-vs-heartbeat)
 - [Heartbeat](/gateway/heartbeat)
+
+## Project-first workflow
+
+- Always read the project README, requirements, and evaluation criteria before making changes.
+- Never copy commands or implementation steps blindly from examples, classes, screenshots, or other users.
+- Treat examples as reference only; adapt every solution to the current project, repository, tools, and requirements.
+- Before executing changes, inspect the existing files and repository state.
+- Prefer the project's explicit requirements over generic assumptions or previous examples.
