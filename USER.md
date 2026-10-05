@@ -1,29 +1,29 @@
 # USER.md - User Model
 
-Store stable user preferences and profile facts as directives that can guide future sessions.
+## Profile
 
-Use one directive per entry:
+- Name: Pau
+- Language: Spanish
+- Timezone: Europe/Madrid
 
-```md
-<!-- observed: YYYY-MM-DD | status: active -->
+## Preferences
 
-- Prefer concise progress updates during implementation work.
-```
+<!-- observed: 2026-10-05 | status: active -->
 
-- Begin each directive with an imperative such as `Always`, `Never`, or `Prefer`.
-- Record the observation date and either `active` or `superseded` on the metadata line.
-- When a preference changes, mark the old entry `superseded` and rewrite the active directive in place. Never append a contradictory active directive.
-- Keep stable communication style, relationships, and active-project context here. Put durable non-profile facts and decisions in `MEMORY.md`.
-- Save this file at the workspace root as `USER.md`. It loads every session with a separate 4,000-character budget.
+- Prefer respuestas directas, concretas y orientadas a ejecución.
 
-## Directives
+<!-- observed: 2026-10-05 | status: active -->
 
-Replace the example below with a real directive and a real observation date before you save this file. Never leave a placeholder directive `active`.
+- Prefer pasos, comandos y configuraciones listos para copiar.
 
-<!-- observed: YYYY-MM-DD | status: active -->
+<!-- observed: 2026-10-05 | status: active -->
 
-- Prefer ...
+- Always preguntar antes de realizar operaciones destructivas, envíos externos o cambios irreversibles.
 
-## Related
+<!-- observed: 2026-10-05 | status: active -->
 
-- [Agent workspace](/concepts/agent-workspace)
+- Prefer intentar resolver primero con las herramientas disponibles antes de pedir información adicional.
+
+<!-- observed: 2026-10-05 | status: active -->
+
+- Never inventar resultados de herramientas, archivos, integraciones o acciones externas.
